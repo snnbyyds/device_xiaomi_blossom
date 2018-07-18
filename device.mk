@@ -374,6 +374,10 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/mediatek \
     $(LOCAL_PATH)
 
+# Runtime Resource Overlays
+PRODUCT_PACKAGES += \
+    DialerOverlayBlossom
+
 # Shipping API Level
 PRODUCT_SHIPPING_API_LEVEL := 29
 
