@@ -408,7 +408,8 @@ PRODUCT_PACKAGES += \
     FrameworksResOverlayBlossom \
     SettingsOverlayBlossom \
     SystemUIOverlayBlossom \
-    TelephonyOverlayBlossom
+    TelephonyOverlayBlossom \
+    WifiResOverlayBlossom
 
 # Shipping API Level
 PRODUCT_SHIPPING_API_LEVEL := 29
