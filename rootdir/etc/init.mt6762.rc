@@ -25,9 +25,6 @@ on init
     chown root system /dev/stune/io/tasks
     chmod 0664 /dev/stune/io/tasks
 
-    # Support legacy paths
-    symlink /sdcard /mnt/sdcard
-
     # if primary storage is physical, set ro.vold.primary_physical to 1
     # setprop ro.vold.primary_physical 1
 
@@ -43,8 +40,6 @@ on init
     mkdir /mnt/vendor/nvdata 0771 system system
 # Create CIP mount point
     mkdir /custom
-
-    mkdir /mnt/cd-rom 0000 system system
 
 # change lk_env permission
     chown root system /proc/lk_env
@@ -165,8 +160,6 @@ on fs
     write /sys/kernel/tracing/trace_marker "E"
     write /proc/bootprof "INIT:Mount_END"
 
-    mount iso9660 loop@/vendor/etc/iAmCdRom.iso /mnt/cd-rom ro
-
 	#Thermal
     mkdir /data/vendor/.tp/ 0775 system system
     mkdir /data/vendor/thermal 0771 root system
@@ -189,9 +182,6 @@ on post-fs
     write /proc/perfmgr/boost_ctrl/eas_ctrl/boot_boost "1 100"
     write /proc/perfmgr/boost_ctrl/eas_ctrl/boot_boost "2 100"
     write /proc/perfmgr/boost_ctrl/eas_ctrl/boot_boost "3 100"
-
-    # Support legacy paths
-    symlink /sdcard /storage/sdcard0
 
     #change permission for engineer mode
     chown radio system /proc/freqhopping/dramc
