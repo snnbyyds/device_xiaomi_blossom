@@ -20,15 +20,14 @@
 
 using android::base::GetProperty;
 
-char const *heapstartsize;
-char const *heapgrowthlimit;
-char const *heapsize;
-char const *heapminfree;
-char const *heapmaxfree;
-char const *heaptargetutilization;
-
-void read_device_ram()
+void load_dalvik_properties()
 {
+    char const *heapstartsize;
+    char const *heapgrowthlimit;
+    char const *heapsize;
+    char const *heapminfree;
+    char const *heapmaxfree;
+    char const *heaptargetutilization;
     struct sysinfo sys;
 
     sysinfo(&sys);
@@ -58,6 +57,13 @@ void read_device_ram()
         heapminfree = "512k";
         heapmaxfree = "8m";
     }
+
+    property_override("dalvik.vm.heapstartsize", heapstartsize);
+    property_override("dalvik.vm.heapgrowthlimit", heapgrowthlimit);
+    property_override("dalvik.vm.heapsize", heapsize);
+    property_override("dalvik.vm.heaptargetutilization", heaptargetutilization);
+    property_override("dalvik.vm.heapminfree", heapminfree);
+    property_override("dalvik.vm.heapmaxfree", heapmaxfree);
 }
 
 bool check_device_has_fp() {
@@ -74,16 +80,7 @@ bool check_device_has_fp() {
     return false;
 }
 
-void vendor_load_properties() {
-    read_device_ram();
-
-    property_override("dalvik.vm.heapstartsize", heapstartsize);
-    property_override("dalvik.vm.heapgrowthlimit", heapgrowthlimit);
-    property_override("dalvik.vm.heapsize", heapsize);
-    property_override("dalvik.vm.heaptargetutilization", heaptargetutilization);
-    property_override("dalvik.vm.heapminfree", heapminfree);
-    property_override("dalvik.vm.heapmaxfree", heapmaxfree);
-
+void load_device_properties() {
     std::string country = GetProperty("ro.boot.hwc", "");
     std::string name = GetProperty("ro.boot.hwname", "");
 
@@ -279,4 +276,9 @@ cattail_india:
     } else
         goto dandelion_10a_global;  // fallback to redmi 10a global variant
     set_variant_props(variant);
+}
+
+void vendor_load_properties() {
+    load_dalvik_properties();
+    load_device_properties();
 }
