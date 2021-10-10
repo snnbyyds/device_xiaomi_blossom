@@ -5,12 +5,10 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#include <cstdlib>
 #include <fstream>
 #include <string>
-#include <string.h>
+#include <cstring>
 #include <sys/sysinfo.h>
-#include <unistd.h>
 
 #include <android-base/properties.h>
 #include <libinit_variants.h>
