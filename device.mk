@@ -393,6 +393,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/public.libraries.vendor.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
 
+# Always preopt extracted APKs to prevent extracting out of the APK
+# for gms modules.
+PRODUCT_ALWAYS_PREOPT_EXTRACTED_APK := true
+
 # Seccomp
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/seccomp/,$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy)
