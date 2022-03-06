@@ -10,5 +10,8 @@ type persist_camera_data_file, data_file_type, file_type;
 # Performance
 type proc_vm_dirty, fs_type, proc_type;
 
+# per boot files
+type per_boot_file, file_type, data_file_type, core_data_file_type;
+
 # eMMC
 type vendor_sysfs_mmc_host, fs_type, sysfs_type;
