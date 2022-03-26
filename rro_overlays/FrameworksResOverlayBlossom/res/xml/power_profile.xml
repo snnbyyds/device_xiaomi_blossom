@@ -82,8 +82,8 @@
         <value>62.13</value>
         <value>71.82</value>
     </array>
-    <item name="screen.on">82.45</item>
-    <item name="screen.full">242.93</item>
+    <item name="screen.on.display0">82.45</item>
+    <item name="screen.full.display0">242.93</item>
     <item name="camera.flashlight">245.859</item>
     <item name="camera.avg">500</item>
     <item name="video">83.29</item>
