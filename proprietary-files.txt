@@ -142,15 +142,15 @@ vendor/lib64/libwapi.so
 # IMS (System)
 bin/vtservice
 etc/init/init.vtservice.rc
--framework/mediatek-common.jar
--framework/mediatek-framework.jar
--framework/mediatek-ims-base.jar
--framework/mediatek-ims-common.jar
--framework/mediatek-ims-extension-plugin.jar
--framework/mediatek-ims-legacy.jar
--framework/mediatek-telecom-common.jar
--framework/mediatek-telephony-base.jar
--framework/mediatek-telephony-common.jar
+framework/mediatek-common.jar
+framework/mediatek-framework.jar
+framework/mediatek-ims-base.jar
+framework/mediatek-ims-common.jar
+framework/mediatek-ims-extension-plugin.jar
+framework/mediatek-ims-legacy.jar
+framework/mediatek-telecom-common.jar
+framework/mediatek-telephony-base.jar
+framework/mediatek-telephony-common.jar
 lib/libcomutils.so
 lib/libimsma.so
 lib/libimsma_adapt.so
@@ -169,7 +169,7 @@ lib64/libmtk_vt_wrapper.so
 lib64/libmtkavenhancements.so
 lib64/libvcodec_cap.so
 lib64/libvcodec_capenc.so
--priv-app/ImsService/ImsService.apk
+priv-app/ImsService/ImsService.apk
 system_ext/lib/vendor.mediatek.hardware.dmc@1.1.so
 system_ext/lib/vendor.mediatek.hardware.dmc@1.2.so
 system_ext/lib/vendor.mediatek.hardware.mtkradioex@2.0.so
@@ -453,8 +453,8 @@ vendor/etc/init/hostapd.android.rc
 vendor/etc/init/init.wlan_drv.rc
 vendor/etc/init/init.wmt_drv.rc
 vendor/etc/init/wlan_assistant.rc
--vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml
--vendor/etc/vintf/manifest/wpa_supplicant.xml
+vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml
+vendor/etc/vintf/manifest/wpa_supplicant.xml
 vendor/lib/libapmonitor_vendor.so
 vendor/lib/vendor.mediatek.hardware.apmonitor@2.0.so
 vendor/lib64/libapmonitor_vendor.so
@@ -869,7 +869,7 @@ vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek
 vendor/bin/hw/vendor.mediatek.hardware.gpu@1.0-service
 vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc
 vendor/etc/init/vendor.mediatek.hardware.gpu@1.0-service.rc
--vendor/etc/vintf/manifest/android.hardware.gpu@1.0-service.xml:vendor/etc/vintf/manifest/vendor.mediatek.hardware.gpu@1.0-service.xml
+vendor/etc/vintf/manifest/android.hardware.gpu@1.0-service.xml:vendor/etc/vintf/manifest/vendor.mediatek.hardware.gpu@1.0-service.xml
 vendor/etc/meow.cfg
 vendor/lib/egl/egl.cfg
 vendor/lib/egl/libEGL_mtk.so
@@ -1027,7 +1027,7 @@ vendor/lib64/hw/libSoftGatekeeper.so
 # DRM
 vendor/bin/hw/android.hardware.drm@1.4-service.widevine
 vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc
--vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml
+vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml
 vendor/lib/mediadrm/libwvdrmengine.so
 vendor/lib/liboemcrypto.so
 vendor/lib/libwvhidl.so
