@@ -182,6 +182,7 @@ BOARD_VNDK_VERSION := current
 
 # SELinux
 include device/mediatek/sepolicy_vndr/SEPolicy.mk
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Inherit the proprietary files
 include vendor/xiaomi/blossom/BoardConfigVendor.mk
