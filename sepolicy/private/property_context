@@ -1,0 +1,9 @@
+# Audio
+audio.adm.buffering.ms                                  u:object_r:system_audio_prop:s0
+audio_hal.period_multiplier                             u:object_r:system_audio_prop:s0
+
+# Camera
+demo.hole                                               u:object_r:vendor_mtk_camera_prop:s0
+demo.near                                               u:object_r:vendor_mtk_camera_prop:s0
+demo.far                                                u:object_r:vendor_mtk_camera_prop:s0
+demo.fb                                                 u:object_r:vendor_mtk_camera_prop:s0
