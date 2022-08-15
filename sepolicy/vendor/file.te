@@ -1,2 +1,5 @@
 # Fingerprint
 type vendor_fingerprint_data_file, data_file_type, file_type;
+
+# Performance
+type proc_vm_dirty, fs_type, proc_type;
