@@ -1,0 +1,3 @@
+# Performance
+type proc_vm_dirty, fs_type, proc_type;
+type proc_sched_stune, fs_type, proc_type;
