@@ -109,6 +109,10 @@ BOARD_MAIN_PARTITION_LIST := system vendor product odm system_ext
 # Display
 TARGET_SCREEN_DENSITY := 440
 
+# Verified Boot
+BOARD_AVB_ENABLE := true
+BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
+
 # Recovery
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 
