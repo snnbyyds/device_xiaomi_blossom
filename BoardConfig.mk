@@ -138,5 +138,8 @@ VENDOR_SECURITY_PATCH := 2020-01-05
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 
+# VNDK
+BOARD_VNDK_VERSION := current
+
 # Inherit the proprietary files
 include vendor/xiaomi/blossom/BoardConfigVendor.mk
