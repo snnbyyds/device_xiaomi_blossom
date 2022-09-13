@@ -120,6 +120,9 @@ BOARD_MAIN_PARTITION_LIST := system vendor product odm system_ext
 # Display
 TARGET_SCREEN_DENSITY := 440
 
+# RIL
+ENABLE_VENDOR_RIL_SERVICE := true
+
 # Vibrator
 TARGET_VIBRATOR_SUPPORTS_EFFECTS := true
 
