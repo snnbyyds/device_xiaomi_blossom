@@ -201,6 +201,7 @@ PRODUCT_COPY_FILES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
+    hardware/mediatek \
     $(LOCAL_PATH)
 
 # Shipping API Level
