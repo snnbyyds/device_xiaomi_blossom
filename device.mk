@@ -280,7 +280,8 @@ PRODUCT_COPY_FILES += \
 
 # Shims
 PRODUCT_PACKAGES += \
-    libshim_audio
+    libshim_audio \
+    libshim_beanpod
 
 # Additional native libraries
 PRODUCT_COPY_FILES += \
