@@ -101,6 +101,10 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-service \
     android.hardware.memtrack@1.0-impl
 
+# WLAN
+PRODUCT_PACKAGES += \
+    android.hardware.wifi@1.0-service-lazy.blossom
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
