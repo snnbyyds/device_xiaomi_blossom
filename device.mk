@@ -366,7 +366,8 @@ PRODUCT_COPY_FILES += \
 # Shims
 PRODUCT_PACKAGES += \
     libshim_audio \
-    libshim_beanpod
+    libshim_beanpod \
+    libshim_showlogo
 
 # Additional native libraries
 PRODUCT_COPY_FILES += \
