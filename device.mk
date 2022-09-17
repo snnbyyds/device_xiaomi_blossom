@@ -38,7 +38,8 @@ PRODUCT_PACKAGES += \
     ueventd.mtk.rc \
     init.ago.rc \
     init.mt6765.volte.rc \
-    fstab.enableswap
+    fstab.enableswap \
+    init.target.rc
 
 # Recovery
 PRODUCT_PACKAGES += \
