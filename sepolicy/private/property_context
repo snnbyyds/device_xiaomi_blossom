@@ -7,3 +7,4 @@ demo.hole                                               u:object_r:vendor_mtk_ca
 demo.near                                               u:object_r:vendor_mtk_camera_prop:s0
 demo.far                                                u:object_r:vendor_mtk_camera_prop:s0
 demo.fb                                                 u:object_r:vendor_mtk_camera_prop:s0
+camera.sensor.                                          u:object_r:vendor_mtk_camera_prop:s0

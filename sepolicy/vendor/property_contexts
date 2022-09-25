@@ -7,3 +7,4 @@ vendor.audio.spkcal.copy.inhal                          u:object_r:vendor_mtk_au
 vendor.camera.sensor.                                   u:object_r:vendor_mtk_camera_prop:s0
 persist.vendor.camera.                                  u:object_r:vendor_mtk_camera_prop:s0
 vendor.debug.tpi.                     			u:object_r:vendor_mtk_camera_prop:s0
+persist.camera.module.                                  u:object_r:vendor_mtk_camera_prop:s0
