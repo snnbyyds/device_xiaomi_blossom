@@ -26,3 +26,6 @@
 
 # GPS
 /dev/socket/bip_socket u:object_r:bip_socket:s0
+
+# Power
+/(vendor|system/vendor)/bin/hw/vendor\.mediatek\.hardware\.mtkpower@1\.2-service\.stub                  u:object_r:mtk_hal_power_exec:s0
