@@ -9,4 +9,4 @@ allow vendor_init mtk_radio_device:lnk_file unlink;
 
 get_prop(vendor_init, vts_status_prop)
 
-set_prop(vendor_init, vendor_mtk_powerhal_prop)
+set_prop(vendor_init, vendor_power_prop)
