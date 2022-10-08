@@ -14,6 +14,9 @@ PRODUCT_BUILD_SUPER_PARTITION := false
 # Installs gsi keys into ramdisk, to boot a developer GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 
+# Properties
+include $(LOCAL_PATH)/vendor_logtag.mk
+
 # Rootdir
 PRODUCT_PACKAGES += \
     fstab.mt6765 \
