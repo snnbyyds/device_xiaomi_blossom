@@ -156,7 +156,8 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0.vendor:32 \
     android.system.wifi.keystore@1.0.vendor \
     libkeystore-engine-wifi-hidl \
-    libkeystore-wifi-hidl
+    libkeystore-wifi-hidl \
+    libnl
 
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service-lazy.blossom
