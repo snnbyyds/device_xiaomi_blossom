@@ -65,25 +65,13 @@ lib/libshowlogo.so
 lib/libsysenv_system.so
 
 # Power
-vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service
-vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc
-vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc
 vendor/etc/fstb.cfg
 vendor/lib/hw/power.default.so
-vendor/lib/hw/power.mt6765.so
-vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.1-impl.so
 vendor/lib/libmtkperf_client_vendor.so
-vendor/lib/libperfctl_vendor.so
-vendor/lib/libpowerhal.so
-vendor/lib/libpowerhalwrap_vendor.so
 vendor/lib/vendor.mediatek.hardware.mtkpower@1.0.so
 vendor/lib/vendor.mediatek.hardware.mtkpower@1.1.so
 vendor/lib/vendor.mediatek.hardware.power@1.1.so
 vendor/lib/vendor.mediatek.hardware.power@2.0.so
-
-# Power (Hardware)
-vendor/bin/hw/power_native_test_v_1_0
-vendor/bin/hw/power_native_test_v_1_1
 
 # IMS
 vendor/bin/hw/vtservice_hidl
@@ -526,7 +514,6 @@ vendor/lib/libccci_util.so
 vendor/lib/libcurl_xcap_md.so
 vendor/lib/libforkexecwrap.so
 vendor/lib/libhydra.so
-vendor/lib/libmmprofile.so
 vendor/lib/libmtk-ril.so
 vendor/lib/libmtkares.so
 vendor/lib/libmtkconfig.so
