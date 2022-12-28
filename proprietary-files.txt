@@ -67,7 +67,6 @@ lib/libsysenv_system.so
 # Power
 vendor/etc/fstb.cfg
 vendor/lib/hw/power.default.so
-vendor/lib/libmtkperf_client_vendor.so
 vendor/lib/vendor.mediatek.hardware.mtkpower@1.0.so
 vendor/lib/vendor.mediatek.hardware.mtkpower@1.1.so
 vendor/lib/vendor.mediatek.hardware.power@1.1.so
