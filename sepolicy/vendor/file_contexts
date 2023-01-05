@@ -17,3 +17,6 @@
 
 # WiFi
 /(vendor|system/vendor)/bin/hw/android\.hardware\.wifi@[0-9]\.[0-9]-service-lazy\.blossom 		u:object_r:hal_wifi_default_exec:s0
+
+# GPS
+/dev/socket/bip_socket u:object_r:bip_socket:s0
