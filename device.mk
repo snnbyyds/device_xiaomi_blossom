@@ -82,6 +82,7 @@ PRODUCT_PACKAGES += \
     libaudiofoundation.vendor
 
 PRODUCT_PACKAGES += \
+    BesLoudness \
     MtkInCallService
 
 PRODUCT_COPY_FILES += \
