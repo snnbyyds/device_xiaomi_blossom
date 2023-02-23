@@ -17,8 +17,6 @@ on early-init
     write /proc/perfmgr/boost_ctrl/cpu_ctrl/boot_freq "0 0 0 0"
     write /sys/devices/platform/10012000.dvfsrc/helio-dvfsrc/dvfsrc_req_ddr_opp 0
 
-    setprop ro.boot.hardware.sku ${ro.boot.hwname}
-
 on init
     write /proc/bootprof "INIT:init"
     # create io boost group
