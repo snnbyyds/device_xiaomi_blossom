@@ -172,7 +172,10 @@ on fs
 # M505 Add for sensor calibration command in 20200220 end
     
     # It might be overwritten by AGO setting if needed
-    write /proc/sys/vm/swappiness 100
+    write /dev/memcg/memory.swappiness 180
+    write /dev/memcg/apps/memory.swappiness 180
+    write /dev/memcg/system/memory.swappiness 180
+    write /proc/sys/vm/swappiness 180
 
 on post-fs
     write /proc/bootprof "INIT:post-fs"
