@@ -1,0 +1,6 @@
+[
+  {
+    "repository": "device_xiaomi_blossom-kernel",
+    "target_path": "device/xiaomi/blossom-kernel"
+  }
+]
