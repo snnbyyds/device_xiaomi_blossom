@@ -1,0 +1,18 @@
+//
+// Copyright (C) 2023 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+// fstab
+prebuilt_etc {
+    name: "fstab.mt6765",
+    src: "etc/fstab.mt6765",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "fstab.mt6762",
+    src: "etc/fstab.mt6762",
+    vendor: true,
+}
