@@ -32,6 +32,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)-kernel/modules,$(TARGET_COPY_OUT_VENDOR)/lib/modules)
 PRODUCT_VENDOR_KERNEL_HEADERS := $(LOCAL_PATH)-kernel/kernel-headers
 
+# FM Radio
+PRODUCT_PACKAGES += \
+    FMRadio
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
