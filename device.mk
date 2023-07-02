@@ -36,8 +36,9 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.verified_boot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.verified_boot.xml
 
 # Prebuilts - Kernel
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)-kernel/modules,$(TARGET_COPY_OUT_VENDOR)/lib/modules)
-PRODUCT_VENDOR_KERNEL_HEADERS := $(LOCAL_PATH)-kernel/kernel-headers
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)-kernel/dtb.img:dtb.img \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)-kernel/modules,$(TARGET_COPY_OUT_VENDOR)/lib/modules)
 
 # FM Radio
 PRODUCT_PACKAGES += \
