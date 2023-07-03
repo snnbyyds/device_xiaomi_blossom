@@ -148,5 +148,8 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 # VNDK
 BOARD_VNDK_VERSION := current
 
+# SELinux
+include device/mediatek/sepolicy_vndr/SEPolicy.mk
+
 # Inherit the proprietary files
 include vendor/xiaomi/blossom/BoardConfigVendor.mk

@@ -1,5 +1,9 @@
 [
   {
+    "repository": "android_device_mediatek_sepolicy_vndr",
+    "target_path": "device/mediatek/sepolicy_vndr"
+  },
+  {
     "repository": "device_xiaomi_blossom-kernel",
     "target_path": "device/xiaomi/blossom-kernel"
   }
