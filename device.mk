@@ -29,6 +29,10 @@ PRODUCT_PACKAGES += \
     init.recovery.mt6765.rc \
     init.recovery.mt6762.rc
 
+# fastbootd
+PRODUCT_PACKAGES += \
+    fastbootd
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1600
 TARGET_SCREEN_WIDTH := 720
