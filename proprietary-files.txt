@@ -2,3 +2,23 @@
 
 # FM Radio
 -system/lib64/libfmjni.so
+
+# Firmware - Touch screen
+vendor/firmware/chipone-tddi-tianma.bin
+vendor/firmware/chipone-tddi-truly.bin
+vendor/firmware/focaltech_aa_ts_fw_helitai.bin
+vendor/firmware/focaltech_ab_ts_fw_helitai.bin
+vendor/firmware/gt1151_default_firmware2.img
+vendor/firmware/hdl_firmware.img
+vendor/firmware/Himax_firmware.bin
+vendor/firmware/Himax_mpfw.bin
+vendor/firmware/hx_criteria.csv
+vendor/firmware/ilitek_fw.bin
+vendor/firmware/novatek_ts_djn_fw.bin
+vendor/firmware/novatek_ts_djn_mp.bin
+vendor/firmware/novatek_ts_ebbg_fw.bin
+vendor/firmware/novatek_ts_ebbg_mp.bin
+vendor/firmware/novatek_ts_hlt_fw.bin
+vendor/firmware/novatek_ts_hlt_mp.bin
+vendor/firmware/novatek_ts_truly_fw.bin
+vendor/firmware/novatek_ts_truly_mp.bin
