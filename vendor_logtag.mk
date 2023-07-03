@@ -104,6 +104,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.log.tag.NetworkStats=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.NetworkPolicy=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.DataDispatcher=$(VENDOR_LOG_LEVEL) \
+    persist.log.tag.IMGMapper=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.ImsService=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.IMS_RILA=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.IMSRILRequest=$(VENDOR_LOG_LEVEL) \
