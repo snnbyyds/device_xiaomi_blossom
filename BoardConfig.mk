@@ -43,6 +43,7 @@ BOARD_HAVE_MTK_FM := true
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Kernel
 TARGET_KERNEL_CONFIG := blossom_defconfig # no file, only make build system happy
