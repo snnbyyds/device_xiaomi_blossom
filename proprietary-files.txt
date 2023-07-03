@@ -27,3 +27,7 @@ vendor/firmware/novatek_ts_hlt_fw.bin
 vendor/firmware/novatek_ts_hlt_mp.bin
 vendor/firmware/novatek_ts_truly_fw.bin
 vendor/firmware/novatek_ts_truly_mp.bin
+
+# Firmware - GPU
+vendor/firmware/rgx.fw
+vendor/firmware/rgx.sh
