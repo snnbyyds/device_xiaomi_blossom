@@ -3,6 +3,11 @@
 # FM Radio
 -system/lib64/libfmjni.so
 
+# Firmware - FM Radio
+vendor/firmware/fm_cust.cfg
+vendor/firmware/mt6631_fm_v1_coeff.bin
+vendor/firmware/mt6631_fm_v1_patch.bin
+
 # Firmware - Touch screen
 vendor/firmware/chipone-tddi-tianma.bin
 vendor/firmware/chipone-tddi-truly.bin
