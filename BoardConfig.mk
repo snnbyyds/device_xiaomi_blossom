@@ -41,6 +41,9 @@ TARGET_BOOTLOADER_BOARD_NAME := blossom
 BOARD_HAS_MTK_HARDWARE := true
 BOARD_HAVE_MTK_FM := true
 
+# Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
 # Kernel
 TARGET_KERNEL_CONFIG := blossom_defconfig # no file, only make build system happy
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)-kernel/kernel # automatically copied

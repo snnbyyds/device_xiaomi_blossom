@@ -1,0 +1,65 @@
+# Audio
+audio.chk.cal.spk=0
+audio.chk.cal.us=0
+ro.audio.silent=0
+ro.config.vc_call_vol_steps=9
+
+# Brand
+Build.BRAND=MTK
+
+# Camera
+ro.camera.sound.forced=0
+
+# Dalvik
+dalvik.vm.dex2oat64.enabled=true
+
+# Display
+persist.sys.df.extcolor.proc=0
+ro.colorpick_adjust=true
+ro.vendor.cabc.enable=true
+ro.vendor.df.effect.conflict=1
+sys.paper_mode_max_level=255
+vendor.display.enable_default_color_mode=0
+
+# GPU
+ro.opengles.version=196610
+
+# IMS
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
+
+# Kernel
+ro.iorapd.enable=false
+ro.kernel.zio=38,108,105,16
+sys.ipo.disable=1
+sys.ipo.pwrdncap=2
+
+# Keylayout
+qemu.hw.mainkeys=0
+
+# Perf
+ro.mtk_perf_fast_start_win=1
+ro.mtk_perf_response_time=1
+ro.mtk_perf_simple_start_win=1
+
+# RIL
+vendor.rild.libargs=-d /dev/ttyC0
+vendor.rild.libpath=mtk-ril.so
+
+# USB
+ro.sys.usb.bicr=no
+ro.sys.usb.charging.only=yes
+ro.sys.usb.mtp.whql.enable=0
+ro.sys.usb.storage.type=mtp
+
+# WiFi
+mediatek.wlan.ctia=0
+ro.mediatek.wlan.p2p=1
+ro.mediatek.wlan.wsc=1
+wifi.direct.interface=p2p0
+wifi.interface=wlan0
+wifi.tethering.interface=ap0
+
+# Zygote
+ro.zygote.preload.enable=0
