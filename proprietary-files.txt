@@ -31,3 +31,28 @@ vendor/firmware/novatek_ts_truly_mp.bin
 # Firmware - GPU
 vendor/firmware/rgx.fw
 vendor/firmware/rgx.sh
+
+# Firmware - Connectivity
+vendor/firmware/WMT_SOC.cfg
+
+# Firmware - Bluetooth
+vendor/firmware/BT_FW.cfg
+vendor/firmware/soc1_0_patch_mcu_1_1_hdr.bin
+vendor/firmware/soc1_0_ram_bt_1_1_hdr.bin
+vendor/firmware/soc1_0_ram_mcu_1_1_hdr.bin
+vendor/firmware/soc3_0_ram_bt_1_1_hdr.bin
+vendor/firmware/soc3_0_ram_bt_1a_1_hdr.bin
+vendor/firmware/soc3_0_ram_mcu_1_1_hdr.bin
+vendor/firmware/soc3_0_ram_mcu_1a_1_hdr.bin
+vendor/firmware/soc3_0_ram_mcu_e1_hdr.bin
+
+# Firmware - WLAN
+vendor/firmware/soc1_0_ram_wifi_1_1_hdr.bin
+vendor/firmware/WIFI_RAM_CODE_soc1_0_1_1.bin
+
+# Firmware - NFC
+vendor/firmware/sec_s3nrn82_firmware.bin
+
+# Firmware - Misc
+vendor/firmware/Conf_MultipleTest_aa.ini
+vendor/firmware/Conf_MultipleTest_ab.ini
