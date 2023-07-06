@@ -154,6 +154,12 @@ PRODUCT_PACKAGES += \
     libmockdrmcryptoplugin \
     libdrm.vendor
 
+# Gatekeeper
+PRODUCT_PACKAGES += \
+    android.hardware.gatekeeper@1.0.vendor \
+    android.hardware.gatekeeper@1.0-impl \
+    android.hardware.gatekeeper@1.0-service
+
 # Shims
 PRODUCT_PACKAGES += \
     libshim_audio
