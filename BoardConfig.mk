@@ -120,6 +120,9 @@ BOARD_MAIN_PARTITION_LIST := system vendor product odm system_ext
 # Display
 TARGET_SCREEN_DENSITY := 440
 
+# Vibrator
+TARGET_VIBRATOR_SUPPORTS_EFFECTS := true
+
 # Verified Boot
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3

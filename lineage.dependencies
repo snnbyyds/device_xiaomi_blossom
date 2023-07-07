@@ -4,6 +4,10 @@
     "target_path": "device/mediatek/sepolicy_vndr"
   },
   {
+    "repository": "android_hardware_mediatek",
+    "target_path": "hardware/mediatek"
+  },
+  {
     "repository": "device_xiaomi_blossom-kernel",
     "target_path": "device/xiaomi/blossom-kernel"
   }
