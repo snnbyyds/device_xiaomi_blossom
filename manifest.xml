@@ -99,4 +99,24 @@
         </interface>
         <fqname>@1.0::IMemtrack/default</fqname>
     </hal>
+    <hal format="hidl">
+        <name>vendor.mediatek.hardware.wifi.supplicant</name>
+        <transport>hwbinder</transport>
+        <version>2.0</version>
+        <interface>
+            <name>ISupplicant</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@2.0::ISupplicant/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.mediatek.hardware.apmonitor</name>
+        <transport>hwbinder</transport>
+        <version>2.0</version>
+        <interface>
+            <name>IApmService</name>
+            <instance>apm_hidl_service</instance>
+        </interface>
+        <fqname>@2.0::IApmService/apm_hidl_service</fqname>
+    </hal>
 </manifest>
