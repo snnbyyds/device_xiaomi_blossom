@@ -103,6 +103,19 @@ PRODUCT_PACKAGES += \
 
 # WLAN
 PRODUCT_PACKAGES += \
+    android.hardware.wifi.hostapd@1.0.vendor \
+    android.hardware.wifi.hostapd@1.1.vendor \
+    android.hardware.wifi.hostapd@1.2.vendor \
+    android.hardware.wifi.supplicant@1.0.vendor \
+    android.hardware.wifi.supplicant@1.1.vendor \
+    android.hardware.wifi.supplicant@1.2.vendor \
+    android.hardware.wifi.supplicant@1.3.vendor \
+    android.hardware.wifi@1.0.vendor:32 \
+    android.system.wifi.keystore@1.0.vendor \
+    libkeystore-engine-wifi-hidl \
+    libkeystore-wifi-hidl
+
+PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service-lazy.blossom
 
 # Health
