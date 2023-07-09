@@ -245,4 +245,14 @@
         </interface>
         <fqname>@1.1::IKeymasterDevice/default</fqname>
     </hal>
+    <hal format="hidl">
+        <name>android.hardware.nfc</name>
+        <transport>hwbinder</transport>
+        <version>1.2</version>
+        <interface>
+            <name>INfc</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.2::INfc/default</fqname>
+    </hal>
 </manifest>
