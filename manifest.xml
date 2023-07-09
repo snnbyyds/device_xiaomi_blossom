@@ -458,4 +458,14 @@
         </interface>
         <fqname>@1.1::IMtkCodecService/default</fqname>
     </hal>
+    <hal format="hidl">
+        <name>vendor.mediatek.hardware.engineermode</name>
+        <transport>hwbinder</transport>
+        <version>1.3</version>
+        <interface>
+            <name>IEmd</name>
+            <instance>EmHidlServer</instance>
+        </interface>
+        <fqname>@1.3::IEmd/EmHidlServer</fqname>
+    </hal>
 </manifest>
