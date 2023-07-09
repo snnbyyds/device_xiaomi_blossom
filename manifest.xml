@@ -401,4 +401,24 @@
         </interface>
         <fqname>@1.0::INetdagent/default</fqname>
     </hal>
+    <hal format="hidl">
+        <name>vendor.mediatek.hardware.atci</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IAtcid</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.0::IAtcid/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.mediatek.hardware.nvram</name>
+        <transport>hwbinder</transport>
+        <version>1.1</version>
+        <interface>
+            <name>INvram</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.1::INvram/default</fqname>
+    </hal>
 </manifest>
