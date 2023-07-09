@@ -270,4 +270,135 @@
         <fqname>@1.1::IMtkPerf/default</fqname>
         <fqname>@1.1::IMtkPower/default</fqname>
     </hal>
+    <hal format="hidl">
+        <name>android.hardware.radio</name>
+        <transport>hwbinder</transport>
+        <version>1.2</version>
+        <interface>
+            <name>IRadio</name>
+            <instance>em1</instance>
+            <instance>em2</instance>
+            <instance>imsAospSlot1</instance>
+            <instance>imsAospSlot2</instance>
+            <instance>se1</instance>
+            <instance>se2</instance>
+            <instance>slot1</instance>
+            <instance>slot2</instance>
+        </interface>
+        <interface>
+            <name>ISap</name>
+            <instance>slot1</instance>
+            <instance>slot2</instance>
+        </interface>
+        <fqname>@1.2::ISap/slot1</fqname>
+        <fqname>@1.2::ISap/slot2</fqname>
+        <fqname>@1.5::IRadio/em1</fqname>
+        <fqname>@1.5::IRadio/em2</fqname>
+        <fqname>@1.5::IRadio/imsAospSlot1</fqname>
+        <fqname>@1.5::IRadio/imsAospSlot2</fqname>
+        <fqname>@1.5::IRadio/se1</fqname>
+        <fqname>@1.5::IRadio/se2</fqname>
+        <fqname>@1.5::IRadio/slot1</fqname>
+        <fqname>@1.5::IRadio/slot2</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.radio.config</name>
+        <transport>hwbinder</transport>
+        <version>1.1</version>
+        <interface>
+            <name>IRadioConfig</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.1::IRadioConfig/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.mediatek.hardware.dmc</name>
+        <transport>hwbinder</transport>
+        <version>1.2</version>
+        <interface>
+            <name>IDmcService</name>
+            <instance>dmc_hidl_service</instance>
+        </interface>
+        <fqname>@1.2::IDmcService/dmc_hidl_service</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.mediatek.hardware.mdmonitor</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IMDMonitorService</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.0::IMDMonitorService/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.mediatek.hardware.mms</name>
+        <transport>hwbinder</transport>
+        <version>1.5</version>
+        <interface>
+            <name>IMms</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.5::IMms/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.mediatek.hardware.mtkradioex</name>
+        <transport>hwbinder</transport>
+        <version>2.0</version>
+        <interface>
+            <name>IMtkRadioEx</name>
+            <instance>imsSlot1</instance>
+            <instance>imsSlot2</instance>
+            <instance>mtkAssist1</instance>
+            <instance>mtkAssist2</instance>
+            <instance>mtkCap1</instance>
+            <instance>mtkCap2</instance>
+            <instance>mtkEm1</instance>
+            <instance>mtkEm2</instance>
+            <instance>mtkRcs1</instance>
+            <instance>mtkRcs2</instance>
+            <instance>mtkSe1</instance>
+            <instance>mtkSe2</instance>
+            <instance>mtkSlot1</instance>
+            <instance>mtkSlot2</instance>
+            <instance>mtkSmartRatSwitch1</instance>
+            <instance>mtkSmartRatSwitch2</instance>
+        </interface>
+        <fqname>@2.0::IMtkRadioEx/imsSlot1</fqname>
+        <fqname>@2.0::IMtkRadioEx/imsSlot2</fqname>
+        <fqname>@2.0::IMtkRadioEx/mtkAssist1</fqname>
+        <fqname>@2.0::IMtkRadioEx/mtkAssist2</fqname>
+        <fqname>@2.0::IMtkRadioEx/mtkCap1</fqname>
+        <fqname>@2.0::IMtkRadioEx/mtkCap2</fqname>
+        <fqname>@2.0::IMtkRadioEx/mtkEm1</fqname>
+        <fqname>@2.0::IMtkRadioEx/mtkEm2</fqname>
+        <fqname>@2.0::IMtkRadioEx/mtkRcs1</fqname>
+        <fqname>@2.0::IMtkRadioEx/mtkRcs2</fqname>
+        <fqname>@2.0::IMtkRadioEx/mtkSe1</fqname>
+        <fqname>@2.0::IMtkRadioEx/mtkSe2</fqname>
+        <fqname>@2.0::IMtkRadioEx/mtkSlot1</fqname>
+        <fqname>@2.0::IMtkRadioEx/mtkSlot2</fqname>
+        <fqname>@2.0::IMtkRadioEx/mtkSmartRatSwitch1</fqname>
+        <fqname>@2.0::IMtkRadioEx/mtkSmartRatSwitch2</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.mediatek.hardware.videotelephony</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IVideoTelephony</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.0::IVideoTelephony/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.mediatek.hardware.netdagent</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>INetdagent</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.0::INetdagent/default</fqname>
+    </hal>
 </manifest>
