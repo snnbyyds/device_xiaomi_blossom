@@ -165,6 +165,12 @@ PRODUCT_PACKAGES += \
     libutils-v30 \
     libutils-v32
 
+# Thermal
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@1.0.vendor \
+    android.hardware.thermal@2.0.vendor \
+    android.hardware.thermal@1.0-impl
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-mediatek:32 \
