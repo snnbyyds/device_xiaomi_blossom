@@ -32,7 +32,8 @@ PRODUCT_PACKAGES += \
     init.sensor_1_0.rc \
     ueventd.mtk.rc \
     init.ago.rc \
-    init.mt6765.volte.rc
+    init.mt6765.volte.rc \
+    fstab.enableswap
 
 # Recovery
 PRODUCT_PACKAGES += \

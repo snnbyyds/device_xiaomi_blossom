@@ -86,3 +86,9 @@ prebuilt_etc {
     relative_install_path: "init/hw",
     vendor: true,
 }
+
+prebuilt_etc {
+    name: "fstab.enableswap",
+    src: "etc/fstab.enableswap",
+    vendor: true,
+}
