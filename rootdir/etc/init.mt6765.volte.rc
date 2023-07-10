@@ -1,0 +1,4 @@
+on early-init
+    mount none /vendor/bin/volte_imcb.mt6765 /vendor/bin/volte_imcb bind
+    mount none /vendor/bin/volte_stack.mt6765 /vendor/bin/volte_stack bind
+    mount none /vendor/bin/volte_ua.mt6765 /vendor/bin/volte_ua bind

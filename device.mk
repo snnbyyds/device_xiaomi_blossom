@@ -22,7 +22,17 @@ PRODUCT_PACKAGES += \
     fstab.mt6765 \
     fstab.mt6762 \
     fstab.mt6765_ramdisk \
-    fstab.mt6762_ramdisk
+    fstab.mt6762_ramdisk \
+    init.connectivity.rc \
+    init.modem.rc \
+    init.mt6765.rc \
+    init.mt6762.rc \
+    init.mt6765.usb.rc \
+    init.project.rc \
+    init.sensor_1_0.rc \
+    ueventd.mtk.rc \
+    init.ago.rc \
+    init.mt6765.volte.rc
 
 # Recovery
 PRODUCT_PACKAGES += \

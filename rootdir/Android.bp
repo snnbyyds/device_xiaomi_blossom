@@ -16,3 +16,73 @@ prebuilt_etc {
     src: "etc/fstab.mt6762",
     vendor: true,
 }
+
+prebuilt_etc {
+    name: "init.connectivity.rc",
+    src: "etc/init.connectivity.rc",
+    relative_install_path: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.modem.rc",
+    src: "etc/init.modem.rc",
+    relative_install_path: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.mt6765.rc",
+    src: "etc/init.mt6765.rc",
+    relative_install_path: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.mt6762.rc",
+    src: "etc/init.mt6762.rc",
+    relative_install_path: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.mt6765.usb.rc",
+    src: "etc/init.mt6765.usb.rc",
+    relative_install_path: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.project.rc",
+    src: "etc/init.project.rc",
+    relative_install_path: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.sensor_1_0.rc",
+    src: "etc/init.sensor_1_0.rc",
+    relative_install_path: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "ueventd.mtk.rc",
+    src: "etc/ueventd.rc",
+    filename_from_src: true,
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.ago.rc",
+    src: "etc/init.ago.rc",
+    relative_install_path: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.mt6765.volte.rc",
+    src: "etc/init.mt6765.volte.rc",
+    relative_install_path: "init/hw",
+    vendor: true,
+}
