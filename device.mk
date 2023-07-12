@@ -378,7 +378,8 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     DialerOverlayBlossom \
     FrameworksResOverlayBlossom \
-    SettingsOverlayBlossom
+    SettingsOverlayBlossom \
+    SystemUIOverlayBlossom
 
 # Shipping API Level
 PRODUCT_SHIPPING_API_LEVEL := 29
