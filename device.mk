@@ -379,7 +379,8 @@ PRODUCT_PACKAGES += \
     DialerOverlayBlossom \
     FrameworksResOverlayBlossom \
     SettingsOverlayBlossom \
-    SystemUIOverlayBlossom
+    SystemUIOverlayBlossom \
+    TelephonyOverlayBlossom
 
 # Shipping API Level
 PRODUCT_SHIPPING_API_LEVEL := 29
