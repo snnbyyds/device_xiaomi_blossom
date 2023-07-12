@@ -60,12 +60,12 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.service \
     android.hardware.audio.common-util.vendor \
     android.hardware.audio.common@5.0 \
-    android.hardware.audio.common@6.0 \
+    android.hardware.audio.common@6.0.vendor \
     android.hardware.audio.common@6.0-util.vendor \
     android.hardware.audio.effect@6.0-util.vendor \
-    android.hardware.audio.effect@6.0 \
+    android.hardware.audio.effect@6.0.vendor \
     android.hardware.audio.effect@6.0-impl \
-    android.hardware.audio@6.0 \
+    android.hardware.audio@6.0.vendor \
     android.hardware.audio@6.0-impl \
     android.hardware.audio@6.0-util.vendor \
     android.hardware.bluetooth.audio-impl \
@@ -100,9 +100,8 @@ PRODUCT_PACKAGES += \
 
 # Display
 PRODUCT_PACKAGES += \
-    android.hardware.graphics.composer@2.1 \
+    android.hardware.graphics.composer@2.1.vendor \
     android.hardware.graphics.composer@2.1-service \
-    android.hardware.graphics.composer@2.1-resources \
     android.hardware.graphics.composer@2.1-resources.vendor \
     android.hardware.graphics.common-V2-ndk.vendor:32 \
     android.hardware.graphics.common-V2-ndk_platform.vendor:32 \
