@@ -376,7 +376,8 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Runtime Resource Overlays
 PRODUCT_PACKAGES += \
-    DialerOverlayBlossom
+    DialerOverlayBlossom \
+    FrameworksResOverlayBlossom
 
 # Shipping API Level
 PRODUCT_SHIPPING_API_LEVEL := 29
