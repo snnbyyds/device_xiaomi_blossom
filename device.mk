@@ -206,7 +206,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
     android.hardware.health@2.1-impl.recovery \
-    android.hardware.health@2.1-service
+    android.hardware.health@2.1-service \
+    android.hardware.health@1.0 \
+    android.hardware.health@2.0
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1600
