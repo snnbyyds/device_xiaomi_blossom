@@ -171,7 +171,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.0.vendor \
     android.hardware.nfc@1.1.vendor \
-    android.hardware.nfc@1.2.vendor
+    android.hardware.nfc@1.2.vendor \
+    com.android.nfc_extras \
+    Tag \
+    NfcNci
 
 # Camera
 PRODUCT_PACKAGES += \
