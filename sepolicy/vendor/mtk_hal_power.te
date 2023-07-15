@@ -1,0 +1,2 @@
+allow mtk_hal_power input_device:dir r_dir_perms;
+allow mtk_hal_power input_device:chr_file rw_file_perms;
