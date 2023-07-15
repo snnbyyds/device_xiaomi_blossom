@@ -1,0 +1,1 @@
+allow init proc_bus_input:file r_file_perms;
