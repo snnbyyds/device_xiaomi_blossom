@@ -3,3 +3,6 @@ typeattribute hal_fingerprint_default data_between_core_and_vendor_violators;
 # Allow fingerprint HAL to setup fingerprint database files
 allow hal_fingerprint_default vendor_fingerprint_data_file:dir rw_dir_perms;
 allow hal_fingerprint_default vendor_fingerprint_data_file:file create_file_perms;
+
+# Allow fingerprint HAL to create netlink_kobject_uevent_socket
+allow hal_fingerprint_default self:netlink_kobject_uevent_socket create_socket_perms_no_ioctl;
