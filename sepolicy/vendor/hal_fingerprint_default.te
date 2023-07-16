@@ -6,3 +6,5 @@ allow hal_fingerprint_default vendor_fingerprint_data_file:file create_file_perm
 
 # Allow fingerprint HAL to create netlink_kobject_uevent_socket
 allow hal_fingerprint_default self:netlink_kobject_uevent_socket create_socket_perms_no_ioctl;
+
+vndbinder_use(hal_fingerprint_default)
