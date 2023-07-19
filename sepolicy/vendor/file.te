@@ -1,3 +1,6 @@
+# Firmware files
+type vendor_firmware_file, vendor_file_type, file_type;
+
 # Fingerprint
 type vendor_fingerprint_data_file, core_data_file_type, data_file_type, file_type;
 
