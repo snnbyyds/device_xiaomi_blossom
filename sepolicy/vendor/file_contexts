@@ -7,6 +7,8 @@
 
 /(vendor|system/vendor)/bin/hw/vendor\.focaltech\.fingerprint@1\.0-service		u:object_r:hal_fingerprint_default_exec:s0
 
+/dev/focaltech_fp                                                             u:object_r:fingerprint_device:s0
+
 # Camera
 /mnt/vendor/persist/camera(/.*)?                                                                        u:object_r:persist_camera_data_file:s0
 
