@@ -402,7 +402,7 @@ USE_DEX2OAT_DEBUG := false
 WITH_DEXPREOPT_DEBUG_INFO := false
 
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SettingsGoogle
+    Settings
 
 # Speed profile services and wifi-service to reduce RAM and storage
 PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
