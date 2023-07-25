@@ -113,6 +113,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libsuspend
 
+# PowerOffAlarm
+PRODUCT_PACKAGES += \
+    PowerOffAlarm
+
 # Radio
 PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.0.vendor \
