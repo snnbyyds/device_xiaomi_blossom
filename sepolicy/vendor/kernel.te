@@ -1,3 +1,6 @@
 allow kernel per_boot_file:file r_file_perms;
 allow kernel vendor_firmware_file:dir search;
 allow kernel vendor_firmware_file:file { open read };
+dontaudit kernel self:capability dac_override;
+dontaudit kernel self:capability dac_read_search;
+dontaudit kernel self:capability kill;
