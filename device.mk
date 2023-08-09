@@ -297,8 +297,7 @@ PRODUCT_COPY_FILES += \
 
 # Prebuilts - Kernel
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)-kernel/dtb.img:dtb.img \
-    $(call find-copy-subdir-files,*,$(LOCAL_PATH)-kernel/modules,$(TARGET_COPY_OUT_VENDOR)/lib/modules)
+    $(LOCAL_PATH)-kernel/dtb.img:dtb.img
 
 # Prebuilts - Touch screen (For recovery)
 PRODUCT_COPY_FILES += \
