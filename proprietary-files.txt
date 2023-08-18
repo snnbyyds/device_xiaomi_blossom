@@ -792,7 +792,6 @@ vendor/etc/audio_param_x/Volume_AudioParam.xml
 vendor/etc/audio_param_x/Volume_ParamUnitDesc.xml
 vendor/etc/aurisys_param/Speech_AudioParam.xml
 vendor/etc/init/audiocmdservice_atci.rc
-vendor/etc/aurisys_config.xml
 vendor/lib/hw/audio.primary.mt6765.so
 vendor/lib/hw/audio.r_submix.mt6765.so
 vendor/lib/hw/audio.usb.mt6765.so
