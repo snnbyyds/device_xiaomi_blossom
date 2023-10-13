@@ -35,4 +35,6 @@
     -->
     <integer name="config_vibration_supported_intensity_levels">3</integer>
 
+    <string name="build_maintainer_summary">weaponmasterjax/snnbyyds</string>
+    <string name="build_maintainer_telegram">https://t.me/snnbyyds</string>
 </resources>
