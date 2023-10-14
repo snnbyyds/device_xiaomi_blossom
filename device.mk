@@ -393,7 +393,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libshim_audio \
     libshim_beanpod \
-    libshim_showlogo \
     libshim_vtservice
 
 # Additional native libraries
