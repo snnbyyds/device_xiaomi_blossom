@@ -199,6 +199,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4.vendor \
     android.hardware.camera.provider@2.5.vendor \
     android.hardware.camera.provider@2.6.vendor \
+    Camera2 \
     libutils-v30 \
     libutils-v32
 
